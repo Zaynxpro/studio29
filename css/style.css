@@ -774,7 +774,7 @@ footer {
   display: flex;
   padding: 0 10px;
   min-height: 70vh;
-  background: #ffffff;
+  background:#807c7c46;
   align-items: center;
   justify-content: center;
 }
@@ -786,7 +786,7 @@ footer {
   width: 715px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.39);
+  box-shadow: 10px 10px 10px rgba(255, 10, 10, 0.164);
 }
 .wrapper h1{
   font-size: 30px;
