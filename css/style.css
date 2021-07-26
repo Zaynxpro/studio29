@@ -412,32 +412,7 @@ button:focus {
 	height: 100%;
 	width: 100%;
 }
-.main-feed h1{
-	position: relative;
-	height: auto;
-	width: 550px;
-	left: 50%;
-	transform: translateX(-50%);
-	margin:5% 0 2% 0;
-	text-align: center;
-	font-size: 2.8em;
-	font-weight: 650;
-	letter-spacing: 1.5px;
-	color:#017bf5;
-	border-left: 5px solid #017bf5;
-	border-right: 5px solid #017bf5;
-	background:rgba(0, 0, 0, 0.05);
-}
-.main-feed p{
-	position: relative;
-	height: auto;
-	width: 100%;
-	text-align: center;
-	font-weight: 500;
-	font-size: 1.5em;
-	letter-spacing: 1px;
-	color: #777;
-}
+
 .main-feed .gallery-feed{
 	position: relative;
 	height: auto;
@@ -479,7 +454,7 @@ button:focus {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	filter: brightness(0.8) grayscale(1);
+	filter: brightness(0.5) grayscale(0);
 	border-radius: 2px;
 	transition: 0.3s ease-in-out;
 }
@@ -488,26 +463,13 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px){
-	.main-feed h1{
-		font-size: 1.8em;
-		width: 400px;
-	}
-	.main-feed p{
-		font-size: 1.2em;
-	}
 	.main-feed .gallery-feed{
 		display: grid;
 		grid-template-columns: auto auto auto;
 	}
 }
 @media only screen and (max-width: 430px){
-	.main-feed h1{
-		font-size: 1.2em;
-		width: 300px;
-	}
-	.main-feed p{
-		font-size: 0.89em;
-	}
+
 	.main-feed .gallery-feed{
 		display: block;
 	}
