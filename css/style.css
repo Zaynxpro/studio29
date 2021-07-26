@@ -15,7 +15,9 @@
 	height: 100px;
 	
 }
-
+.navbar{
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
 
 .social-icons-nav{
 	font-size: 30px;
@@ -454,7 +456,7 @@ button:focus {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	filter: brightness(0.5) grayscale(0);
+	filter: brightness(1) grayscale(1);
 	border-radius: 2px;
 	transition: 0.3s ease-in-out;
 }
@@ -623,7 +625,8 @@ button:focus {
 /* The footer is fixed to the bottom of the page */
 
 footer {
-    bottom: 0;
+	    bottom: 0;
+		box-shadow: 0 2px 4px 3px rgba(0,0,0,0.25);
 }
 
 @media (max-height:800px) {
@@ -774,7 +777,7 @@ footer {
   display: flex;
   padding: 0 10px;
   min-height: 70vh;
-  background:#807c7c46;
+  background:#fff;
   align-items: center;
   justify-content: center;
 }
@@ -786,7 +789,7 @@ footer {
   width: 715px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px rgba(255, 10, 10, 0.164);
+  box-shadow: 10px 10px 10px rgba(255, 10, 10, 0.075);
 }
 .wrapper h1{
   font-size: 30px;
