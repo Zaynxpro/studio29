@@ -7,17 +7,6 @@
 
 }
 
-/* PRELOADER  */
-
-#preloader{
-	background: #000 url(gif.gif) no-repeat center center;
-	height: 100vh;
-	background-size: 15%;
-	width: 100%;
-	position: fixed;
-	z-index: 100;
-}
-
 /* HEADER  */
 
 /* NAVBAR */
@@ -41,9 +30,28 @@
 	color: black;	
 }
 
+.dropdown-submenu {
+	position: relative;
+	text-decoration: none;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+	text-decoration: none;	
+  }
+
+  .dropdown-item a{
+	  color: black;
+  }
+	  
 
 
-
+  .dropdown-item a:hover{
+	color: red;
+	text-decoration: none;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -215,45 +223,6 @@
 
 
 
-/* WHATSAPP  */
-/* for desktop */
-.whatsapp_float {
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-        font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-        z-index:100;
-		padding-top: 8px;
-}
-
-.whatsapp a:hover{
-	color: rgb(255, 255, 255);
-	
-
-}
-
-.whatsapp-icon {
-	margin-top:16px;
-}
-/* for mobile */
-@media screen and (max-width: 767px){
-     
-    .whatsapp_float {
-        width: 40px;
-       height: 40px;
-        right: 10px;
-        font-size: 20px;
-    }
-}
-
-
 /* CARDS  */
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 
@@ -395,9 +364,6 @@ button:focus {
 	transform: scale(1.05) translateZ(0);
   }
   
-  .card-grid:hover > .card-work:not(:hover) .card__background{
-	filter: brightness(0.7) saturate(0) contrast(1) blur(5px);
-  }
   
   .card__content{
 	left: 0;
