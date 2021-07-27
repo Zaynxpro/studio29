@@ -456,12 +456,13 @@ button:focus {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	filter: brightness(1) grayscale(1);
+	filter: brightness(1);
 	border-radius: 2px;
 	transition: 0.3s ease-in-out;
 }
 .main-feed .gallery-feed .img-feed:hover img{
 	filter: brightness(1) grayscale(0);
+	transform: scale(1.2);
 }
 
 @media only screen and (max-width: 768px){
@@ -789,7 +790,7 @@ footer {
   width: 715px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px rgba(255, 10, 10, 0.075);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.63);
 }
 .wrapper h1{
   font-size: 30px;
@@ -893,6 +894,9 @@ form .button-area{
   display: none;
 }
 @media (max-width: 600px){
+	.wrapper{
+		margin-top: 3rem;
+	}
   .wrapper header{
     text-align: center;
   }
