@@ -31,6 +31,8 @@
 
 <body>
 
+  <div id="preloader"></div>
+
   <Header>
     <!-- NAVBAR  -->
     <section>
@@ -432,7 +434,13 @@
 
 
   
-    
+    <script>
+      var loader= document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+    </script>
 
     
 </body>
